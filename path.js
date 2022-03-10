@@ -12,5 +12,5 @@ let basename2 = path.basename(__filename);
 //console.log(basename);
 console.log(basename2);
 
-let newpath = path.join(__dirname,"os.js");
+let newpath = path.join(__dirname,"os.js");  //its just create filepath not the fileitself its just a path in string
 console.log(newpath);
