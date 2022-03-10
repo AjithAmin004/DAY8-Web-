@@ -7,4 +7,3 @@ let os= require('os');
 // console.log(os.getPriority());
 // console.log(os.totalmem());
 // console.log(os.hostname());
-console.log(os.userInfo('C:\Users\HP\Desktop\FJP6\Module2\Day8\os.js');
