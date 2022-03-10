@@ -21,4 +21,6 @@ fs.appendFileSync(npath," I am new Data") //takes 2 string path and value, it op
 console.log("After update");
 console.log(fs.readFileSync(npath,"utf-8"));
 
-
+//Delete operation
+ fs.unlinkSync(npath)
+ //unlink is used to delete , it just takes the path and performs delete
