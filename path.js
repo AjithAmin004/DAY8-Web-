@@ -9,5 +9,8 @@ console.log(extension2);
 //__filename -> gives the filepath
 // let basename = path.basename('C:\Users\HP\Desktop\FJP6\Module2\Day8\os.js');
 let basename2 = path.basename(__filename);
-console.log(basename);
+//console.log(basename);
 console.log(basename2);
+
+let newpath = path.join(__dirname,"os.js");
+console.log(newpath);
