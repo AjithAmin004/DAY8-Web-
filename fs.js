@@ -23,4 +23,5 @@ console.log(fs.readFileSync(npath,"utf-8"));
 
 //Delete operation
  fs.unlinkSync(npath)
- //unlink is used to delete , it just takes the path and performs delete
+ //unlink is used to delete , it just takes the path and performs 
+ 
